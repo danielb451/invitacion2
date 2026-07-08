@@ -746,36 +746,38 @@
     }
 
     .creditos {
-      position: relative;
-      z-index: 10;
-      margin: 22px auto 0;
-      width: 88%;
-      text-align: center;
-      background: linear-gradient(180deg, #f6c863 0%, #e7a93a 100%);
-      border: 4px solid #9a5510;
-      border-radius: 18px;
-      padding: 10px 12px;
-      box-shadow: 0 5px 0 rgba(130, 70, 12, 0.25);
-      color: #8a4b10;
-      font-weight: 900;
-      font-size: 11px;
-      letter-spacing: 1px;
-      text-transform: uppercase;
-    }
+    position: relative;
+    z-index: 3; /* Más bajo que los personajes */
+    margin: 14px auto 0;
+    width: 62%;
+    text-align: center;
+    background: rgba(246, 200, 99, 0.78);
+    border: 2px solid rgba(154, 85, 16, 0.65);
+    border-radius: 14px;
+    padding: 6px 8px;
+    box-shadow: 0 3px 0 rgba(130, 70, 12, 0.18);
+    color: #8a4b10;
+    font-weight: 900;
+    font-size: 8px;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    opacity: 0.82;
+    pointer-events: none;
+  }
 
-    .creditos span {
-      display: block;
-      font-size: 9px;
-      color: #00499b;
-      letter-spacing: 1.5px;
-      margin-bottom: 3px;
-    }
+  .creditos span {
+    display: block;
+    font-size: 7px;
+    color: #00499b;
+    letter-spacing: 1px;
+    margin-bottom: 2px;
+  }
 
-    .creditos strong {
-      color: #ef1d25;
-      font-size: 14px;
-      letter-spacing: 1.5px;
-    }
+  .creditos strong {
+    color: #ef1d25;
+    font-size: 10px;
+    letter-spacing: 1px;
+  }
 
     .fondo-foto {
       position: relative;
@@ -1270,9 +1272,9 @@
 
     </section>
         <footer class="creditos">
-      <span>Invitación digital creada por</span>
-      <strong>Daniel Bautista</strong>
-    </footer>
+          <span>Invitación digital creada por</span>
+          <strong>Daniel Bautista</strong>
+        </footer>
   </main>
 
   <script>
